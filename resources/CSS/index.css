@@ -1,0 +1,35 @@
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16pt;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.middle {
+    text-align: center;
+}
+.row {
+    display: flex;
+}
+.column {
+    flex: 20%;
+}
+.bold {
+    font-weight: bold;
+}
+.larger {
+    font-size: 32pt;
+}
+.leftMargin {
+    margin-left: 105px;
+}
+.rightMargin {
+    margin-right: 35px;
+}
+.darker {
+    background-color: #817373;
+}
