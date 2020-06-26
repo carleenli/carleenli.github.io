@@ -40,6 +40,12 @@ body {
 .unevencolumn {
     flex: 0 0 70%;
 }
+.column5 {
+    flex-basis: 60%;
+}
 .topMargin {
-    margin-top: 100px;
+    margin-top: 50px;
+}
+.bottom {
+    margin-bottom: 200px;
 }
