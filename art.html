@@ -3,28 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="resources/CSS/index.css" rel="stylesheet" type="text/css">
+    <link href="resources/CSS/index.css?v=1" rel="stylesheet" type="text/css">
     <title>Art</title>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="outreach.html">Outreach</a></li>
-            <li><a href="art.html">Art</a></li>
-            <li><a href="about.html">About Me</a></li>
-        </ul>
-    </nav>
 </head>
 <body>
-    <h1>Hello, my name is Carleen Li.</h1>
-    <h2>Welcome to my website!</h2>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="outreach.html">Outreach</a></li>
+                <li><a href="art.html">Art</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <h1 class="leftMargin">Art</h1>
     <!-- <img src="./resources/images/IMG_7821_Original.jpg" alt="profile" style ="width:300px;height:300px;"> -->
-    <P>I am a second year Bioengineering: Bioinformatics UCSD undergraduate student based in Fremont, CA. I 
-        have a passion for computer science, as well as the arts. I enjoy contributing to my community 
-        through service organizations for the computer science community on campus and STEM outreach events.
-        This summer, I am learning HTML, CSS, and Javascript, while taking summer courses from UCSD and Ohlone
-        College.
-    </P>
-    <a href="https://ucsd.edu/" target="_blank"><img src="./resources/images/ucsdbanner.jpg" width="1424"></a>
+    <p class="leftMargin introText">I enjoy drawing and painting in my free time. Here is a portfolio of some of the works I have completed and took photos of. I have experimented with ink, pencil, pastels, charcoal, watercolor, and acrylic paint. Over the new few months, I hope to explore digital art.
+    </p>
+    <div class="row leftMargin">
+        <div class="column box">
+            <img src="./resources/images/hand.jpg" alt="profile" style ="width:300px;">
+            <img src="./resources/images/whatsup.jpg" alt="profile" style ="width:300px;">
+        </div>
+        <div class="column box">
+            <img src="./resources/images/summer.jpg" alt="profile" style ="width:300px;">
+            <img src="./resources/images/gnash.jpg" alt="profile" style ="width:300px;">
+            <img src="./resources/images/bird.jpg" alt="profile" style ="width:300px;">
+        </div>
+        <div class="column box">
+            <img src="./resources/images/yuki.jpg" alt="profile" style ="width:300px;">
+            <img src="./resources/images/type.jpg" alt="profile" style ="width:300px;">
+        </div>
+    </div>
 </body>
 </html>

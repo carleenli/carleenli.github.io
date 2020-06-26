@@ -3,12 +3,6 @@ body {
     font-family: Helvetica, sans-serif;
     font-size: 16pt;
 }
-h1 {
-    text-align: center;
-}
-h2 {
-    text-align: center;
-}
 .middle {
     text-align: center;
 }
@@ -16,7 +10,7 @@ h2 {
     display: flex;
 }
 .column {
-    flex: 20%;
+    flex: 0 0 25%;
 }
 .bold {
     font-weight: bold;
@@ -30,6 +24,22 @@ h2 {
 .rightMargin {
     margin-right: 35px;
 }
+.introText {
+    margin-right: 300px;
+}
 .darker {
     background-color: #817373;
+}
+.lighter {
+    background-color: #EFE2E2;
+}
+.box {
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.unevencolumn {
+    flex: 0 0 70%;
+}
+.topMargin {
+    margin-top: 100px;
 }
