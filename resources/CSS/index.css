@@ -2,9 +2,27 @@
 body {
     font-family: Helvetica, sans-serif;
     font-size: 16pt;
+    margin: 0px;
 }
 .middle {
     text-align: center;
+}
+.navbar{
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.navbar a{
+    padding-left: 20px;
+}
+/* .navbar-left{
+    float: left;
+} */
+.navbar-right{
+    float: right;
+    padding: 5px;
 }
 .row {
     display: flex;
@@ -38,7 +56,7 @@ body {
     margin-bottom: 50px;
 }
 .unevencolumn {
-    flex: 0 0 70%;
+    flex: 0 0 65%;
 }
 .column5 {
     flex-basis: 60%;
