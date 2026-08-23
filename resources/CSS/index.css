@@ -1,8 +1,9 @@
 
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: "GT America", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
     font-size: 16pt;
     margin: 0px;
+    background-color: #EFE2E2;
 }
 .middle {
     text-align: center;
@@ -17,9 +18,6 @@ a {
 .navbar a{
     padding-left: 20px;
 }
-/* .navbar-left{
-    float: left;
-} */
 .navbar-right{
     float: right;
     padding: 5px;
@@ -45,12 +43,6 @@ a {
 .introText {
     margin-right: 300px;
 }
-.darker {
-    background-color: #817373;
-}
-.lighter {
-    background-color: #EFE2E2;
-}
 .box {
     margin-right: 50px;
     margin-bottom: 50px;
@@ -60,10 +52,4 @@ a {
 }
 .column5 {
     flex-basis: 60%;
-}
-.topMargin {
-    margin-top: 50px;
-}
-.bottom {
-    margin-bottom: 200px;
 }
