@@ -11,12 +11,6 @@
   .item {
     flex: 1;             /* Makes all items take up equal width */
   }
-  .main-item {
-    flex: 0 1 75%; /* Don't grow, don't shrink, strictly 75% width */
-  }
-  .side-item {
-    flex: 0 1 25%; /* Don't grow, don't shrink, strictly 25% width */
-  }
   main {
     max-width: 1000px;      /* Limits content width, forcing wide side margins */
     margin-left: 15%;       /* Pushes it slightly left of center */

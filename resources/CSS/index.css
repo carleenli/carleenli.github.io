@@ -8,16 +8,15 @@
 @media (min-width: 768px) {
   .responsive-container {
     flex-direction: row; /* Places elements side-by-side */
+    align-items: center;
   }
   .item {
     flex: 1;             /* Makes all items take up equal width */
   }
-}
-.row {
-    display: flex;
-}
-.column {
-    flex: 0 0 25%;
+  main {
+    max-width: 1000px;      /* Limits content width, forcing wide side margins */
+    margin: auto;
+  }
 }
 .bold {
     font-weight: bold;
@@ -25,15 +24,4 @@
 .larger {
     font-size: 32pt;
 }
-.leftMargin {
-    margin-left: 105px;
-}
-.rightMargin {
-    margin-right: 35px;
-}
-.introText {
-    margin-right: 300px;
-}
-.unevencolumn {
-    flex: 0 0 65%;
-}
+

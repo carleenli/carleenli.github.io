@@ -7,6 +7,9 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+header {
+    padding-bottom: 15px;
+}
 .middle {
     text-align: center;
 }
@@ -15,9 +18,10 @@ body {
 }
 main {
     flex: 1;
+    margin: 15px;
 }
 .navbar{
-    padding: 20px;
+    padding: 15px;
 }
 a {
     text-decoration: none;
@@ -25,10 +29,17 @@ a {
 }
 .navbar a{
     padding-left: 20px;
+    transition: color 0.3s ease; 
 }
 .navbar-right{
     float: right;
     padding: 5px;
+}
+.navbar a:hover{
+    text-decoration: underline dotted;
+    color: rgb(87, 82, 86);
+    text-decoration-color: color-mix(in srgb, var(--fg) 20%, transparent);
+    text-underline-offset: 3px;
 }
 .box {
     margin-right: 50px;
