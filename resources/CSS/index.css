@@ -1,26 +1,17 @@
 
-body {
-    font-family: "GT America", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    font-size: 16pt;
-    margin: 0px;
-    background-color: #EFE2E2;
+.responsive-container {
+  display: flex;
+  flex-direction: column; /* Stacks elements vertically */
+  gap: 16px;              /* Adds spacing between items */
+  padding: 10px;
 }
-.middle {
-    text-align: center;
-}
-.navbar{
-    padding: 20px;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-.navbar a{
-    padding-left: 20px;
-}
-.navbar-right{
-    float: right;
-    padding: 5px;
+@media (min-width: 768px) {
+  .responsive-container {
+    flex-direction: row; /* Places elements side-by-side */
+  }
+  .item {
+    flex: 1;             /* Makes all items take up equal width */
+  }
 }
 .row {
     display: flex;
@@ -43,13 +34,6 @@ a {
 .introText {
     margin-right: 300px;
 }
-.box {
-    margin-right: 50px;
-    margin-bottom: 50px;
-}
 .unevencolumn {
     flex: 0 0 65%;
-}
-.column5 {
-    flex-basis: 60%;
 }
