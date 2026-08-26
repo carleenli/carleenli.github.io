@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="resources/CSS/shared.css" rel="stylesheet" type="text/css">
     <link href="resources/CSS/about.css" rel="stylesheet" type="text/css">
+    <script src="script.js" defer></script>
     <title>About Me</title>
 </head>
 <body>
@@ -25,39 +26,78 @@
                 <img src="./resources/images/IMG_7821_Original.jpg" alt="profile" style ="width:300px;height:300px;">
             </div>
         </div>
-        <div>
-            <h4>UC San Diego: Nanoengineering</h4>
-            <p>I was first admitted to UC San Diego to purse a bachelor's in nanoengineering. I was completely new to the
-                discipline, but I knew engineering was a path I was excited about.
-            </p>
-            <h4>Neural Interaction Lab</h4>
-            <p>I joined a research lab at the 
-                intersection of materials science and bioengineering, working on flexible sensors. I spent ~10hr a week in 
-                a clean room and decided research wasn't for me.</p>
-            <h4>Student Organizations</h4>
-            <p>I used student organizations and campus resources to explore alternatives, including the student-led Mars rover 
-                team, an engineering outreach org for local high school and middle school students, and women in tech. I also 
-                joined the largest computer science student organization on campus (CSES) and ultimately became co-president.
-            </p>
-            <h4>UC San Diego: Bioinformatics</h4>
-            <p>The computer science program at UC San Diego is one of the strongest in the country due to its faculty and 
-                resources. I still had a strong curiousity for natural sciences, but I also wanted to explore the computer
-                science department. I applied and changed majors to Bioinformatics during my 2nd year to pursue the
-                intersection of my interests.
-            </p>
-            <h4>LinkedIn Internship: Big Data</h4>
-            <p>During my 3rd year, I interned for LinkedIn. I'd spent the past 1.5 years exploring what career path I wanted to 
-                take. I landed on software engineering as it appealed to my motivation to solve complex problems and optimize.
-            </p>
-            <h4>LinkedIn Software Engineer: Data Infrastructure</h4>
-            <p>I returned to LinkedIn following graduation, and I'm currently a senior software engineer with 4+ years of 
-                experience.</p>
-
+        <div class="timeline">
+            <div class="dynamic-progress-line" id="progressLine"></div>
+            <div class="timeline-row">
+                <div class="timeline-marker"></div>
+                <div class="timeline-contents">
+                    <span class="timeline-date">Sep 2018</span>
+                    <h4>UC San Diego: Nanoengineering</h4>
+                    <p>I was first admitted to UC San Diego to purse a bachelor's in nanoengineering. I was completely new to the
+                        discipline, but I knew engineering was a path I was excited about.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-marker"></div>
+                <div class="timeline-contents">
+                    <span class="timeline-date">Jan 2019</span>
+                    <h4>Neural Interaction Lab</h4>
+                    <p>I joined a research lab at the intersection of materials science and bioengineering, working on flexible 
+                        sensors. While the experience was extremely rewarding, I decided to explore other opportunities in
+                        parallel.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-marker"></div>
+                <div class="timeline-contents">
+                    <span class="timeline-date">Jan 2019</span>
+                    <h4>Student Organizations</h4>
+                    <p>I used student organizations and campus resources to explore alternatives, including the student-led Mars rover 
+                        team, an engineering outreach org for local high school and middle school students, and women in tech. I also 
+                        joined the largest computer science student organization on campus (CSES) and ultimately became co-president.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-marker"></div>
+                <div class="timeline-contents">
+                    <span class="timeline-date">Oct 2019</span>
+                    <h4>UC San Diego: Bioinformatics</h4>
+                    <p>The computer science program at UC San Diego is one of the strongest in the country due to its faculty and 
+                        resources. I still had a strong curiousity for natural sciences, but I also wanted to explore computer
+                        science. I changed majors to Bioinformatics during my 2nd year to pursue the intersection of my interests.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-marker"></div>
+                <div class="timeline-contents">
+                    <span class="timeline-date">Jun 2021</span>
+                    <h4>LinkedIn Internship: Big Data</h4>
+                    <p>I spent the next 1.5 years exploring what career path I wanted to take, and during the summer after my 3rd year,
+                        I interned for LinkedIn as a software engineer intern on the big data engineering team. I landed on software 
+                        engineering as it appealed to my motivation to solve complex problems and optimize systems.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline-row">
+                <div class="timeline-marker"></div>
+                <div class="timeline-contents">
+                    <span class="timeline-date">Aug 2022</span>
+                    <h4>LinkedIn Software Engineer: Data Infrastructure</h4>
+                    <p>I returned to LinkedIn following graduation, and I'm currently a senior software engineer with 4+ years of 
+                        experience. I've worked on various platforms, including metrics, privacy enforcement, and data quality.
+                    </p>
+                </div>
+            </div>
         </div>
+        <p>Check out my <a href="resources/Carleen-Resume.pdf" download>resume</a>!</p>
     </main>
-
     <footer class="middle">
         <br>
+        <p>This website is a personal playground</p>
         <p>Let's Connect!</p>
         <a href="mailto: 2000cli@gmail.com" target="_blank" class="box"><img src="./resources/images/logos/gmail.png" width="40"></a>
         <a href="https://www.linkedin.com/in/carleen-li/" target="_blank"><img src="./resources/images/logos/linkedin.png" width="40"></a>       

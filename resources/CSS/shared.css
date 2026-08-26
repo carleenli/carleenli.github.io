@@ -1,6 +1,6 @@
 body {
     font-family: "GT America", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    font-size: 16pt;
+    font-size: 17px;
     margin: 0px;
     background-color: #EFE2E2;
     display: flex;
@@ -24,19 +24,21 @@ main {
     padding: 15px;
 }
 a {
-    text-decoration: none;
     color: black;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-underline-offset: 2px;
+    transition: color 0.3s ease, text-underline-offset 0.3s ease;
 }
 .navbar a{
     padding-left: 20px;
-    transition: color 0.3s ease; 
+    font-size: 15px;
 }
 .navbar-right{
     float: right;
     padding: 5px;
 }
-.navbar a:hover{
-    text-decoration: underline dotted;
+a:hover{
     color: rgb(87, 82, 86);
     text-decoration-color: color-mix(in srgb, var(--fg) 20%, transparent);
     text-underline-offset: 3px;
@@ -44,4 +46,15 @@ a {
 .box {
     margin-right: 50px;
     margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  .responsive-container {
+    flex-direction: row; /* Places elements side-by-side */
+  }
+  .item {
+    flex: 1;             /* Makes all items take up equal width */
+  }
+  main {
+    max-width: 1000px;      /* Limits content width, forcing wide side margins */
+  }
 }
