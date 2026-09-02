@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column; /* Stacks elements vertically */
   gap: 16px;              /* Adds spacing between items */
-  padding: 10px;
 }
 @media (min-width: 768px) {
   .responsive-container {
@@ -16,4 +15,7 @@
 }
 .bold {
     font-weight: bold;
+}
+main {
+  margin-bottom: 0px;
 }
