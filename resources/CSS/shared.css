@@ -55,6 +55,6 @@ a:hover{
     flex: 1;             /* Makes all items take up equal width */
   }
   main {
-    max-width: 1000px;      /* Limits content width, forcing wide side margins */
+    max-width: 800px;      /* Limits content width, forcing wide side margins */
   }
 }
